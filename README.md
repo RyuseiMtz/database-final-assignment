@@ -17,8 +17,6 @@ database-final-assignment/
 ├── config/                # 設定ファイル
 │   └── settings.py        # アプリケーション設定
 ├── requirements.txt       # 依存パッケージ
-├── ARCHITECTURE_DIAGRAM.png    # アーキテクチャ構成図
-├── ER_DIAGRAM_JP_VISUAL.png    # ER図（日本語版）
 └── team_task_manager.db        # SQLiteデータベース
 ```
 
@@ -62,10 +60,3 @@ streamlit run app/main_simple.py
 - **データベース**: SQLite
 - **ORM**: SQLAlchemy
 - **可視化**: Plotly, Matplotlib, Seaborn
-
-## ドキュメント
-
-- [アーキテクチャ構成図](ARCHITECTURE_DIAGRAM.png)
-- [ER図（日本語版）](ER_DIAGRAM_JP_VISUAL.png)
-- [セットアップガイド](SETUP_GUIDE.md)
-- [アーキテクチャ詳細](ARCHITECTURE.md)
